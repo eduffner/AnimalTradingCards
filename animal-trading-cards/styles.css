@@ -1,0 +1,42 @@
+/* add your CSS here */
+
+/*
+spacing between the animal's name, image, and information (you will need to use the property padding)
+ */
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: auto;
+    width: 320px;
+}
+img {
+    max-width: 300px;
+    margin: auto;
+}
+.name {
+    margin: 5px;
+}
+.card{
+    border: 1px solid #C0C0C0;
+    box-shadow: 0px 2px 2px 2px #C0C0C0;
+    padding: 10px;
+}
+.info {
+    border: 1px solid #C0C0C0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ital {
+    font-style: italic;
+}
+
+ul
+{
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left:0;
+
+}
+span {
+    font-weight: bold;
+    }
